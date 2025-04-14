@@ -1,0 +1,17 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: blenderclone
+  description: >
+    A work-in-progress rasterizer built on top of OpenGL,
+    with support for 3D objects, textures, and a UI powered by ImGui.
+  tags:
+    - opengl
+    - c++
+  annotations:
+    github.com/project-slug: VladChira/blenderclone
+    backstage.io/techdocs-ref: dir:.
+spec:
+  type: service
+  lifecycle: experimental
+  owner: VladChira
